@@ -1,4 +1,4 @@
-#include "Mino.hpp"
+#include "Mino.h"
  Mino::Mino(int mri):max_ri(mri) {};
  Mino& Mino::turn()
  {

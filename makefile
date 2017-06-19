@@ -1,5 +1,3 @@
-n.out:main.o
-g++ -o main.out main.o 
+n.out:tetris.cpp Mino.cpp genmino.cpp MinoI.cpp  MinoO.cpp  MinoL.cpp  MinoT.cpp MinoS.cpp Mino.h genMino.h  MinoI.h  MinoO.h MinoL.h  MinoT.h MinoS.h 
+	g++ -c tetris.cpp -o n.out 
 
-main.o:main.cpp Mino.cpp genMino.cpp MinoI.cpp MinoO.cpp MinoL.cpp MinoT.cpp MinoS.cpp Mino.hpp genMino.hpp MinoI.hpp MinoO.hpp MinoL.hpp MinoT.hpp MinoS.hpp
-	g++ main.cpp 

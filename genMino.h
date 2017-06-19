@@ -1,10 +1,10 @@
 #ifndef GENMINO_H
 #define GENMINO_H
-#include "Mino.hpp"
+#include "Mino.h"
  #include "MinoS.h"
- #include "MinoI.hpp"
-#include "MinoL.hpp"
-#include "MinoO.hpp"
+ #include "MinoI.h"
+#include "MinoL.h"
+#include "MinoO.h"
 #include "MinoT.cpp"
 Mino * genMino();
  #endif
